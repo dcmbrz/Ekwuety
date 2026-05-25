@@ -1,0 +1,1 @@
+// Synchronization manager for burst sync with cloud

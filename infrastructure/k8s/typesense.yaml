@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: typesense
+  namespace: ekwuety
+spec:
+  # Typesense deployment configuration
+  # Add replica count, volume claims, and container spec

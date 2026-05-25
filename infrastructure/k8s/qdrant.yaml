@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: qdrant
+  namespace: ekwuety
+spec:
+  # Qdrant deployment configuration
+  # Add replica count, volume claims, and container spec

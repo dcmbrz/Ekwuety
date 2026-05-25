@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: search-api
+  namespace: ekwuety
+spec:
+  # Search API deployment configuration
+  # Add replica count, container spec, and service definition

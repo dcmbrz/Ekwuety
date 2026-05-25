@@ -1,0 +1,1 @@
+// Express/Fastify middleware for authentication, rate limiting, and logging

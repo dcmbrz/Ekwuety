@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KnowledgePack",
+  "description": "Schema for Ekwuety knowledge pack metadata",
+  "type": "object",
+  "required": ["id", "name", "version", "domain", "created_at", "checksum"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the knowledge pack"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version"
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["medical", "agriculture", "legal", "education"],
+      "description": "Knowledge domain"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "checksum": {
+      "type": "string",
+      "description": "SHA-256 checksum of pack contents"
+    },
+    "size_bytes": {
+      "type": "integer"
+    },
+    "device_tier_min": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Minimum device tier required"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "embedding_model": {
+      "type": "string",
+      "description": "Model used for embeddings"
+    }
+  }
+}

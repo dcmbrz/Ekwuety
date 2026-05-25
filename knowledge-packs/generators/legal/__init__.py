@@ -1,0 +1,1 @@
+# Legal domain knowledge pack generator

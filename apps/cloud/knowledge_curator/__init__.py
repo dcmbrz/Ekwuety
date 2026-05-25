@@ -1,0 +1,1 @@
+# Knowledge pack generation using Llama 3.1 70B for curated offline content

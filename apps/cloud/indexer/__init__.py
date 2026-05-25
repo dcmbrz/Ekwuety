@@ -1,0 +1,1 @@
+# Document indexing module with embeddings generation and vector database integration

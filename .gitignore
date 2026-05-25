@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+__pycache__/
+*.pyc
+.pyo
+.pyd
+Python/
+env/
+.venv/
+venv/
+ENV/
+
+# Build outputs
+dist/
+build/
+target/
+*.wasm
+
+# Knowledge packs distribution
+knowledge-packs/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+*.iml
+flutter_*.png
+
+# Tauri
+src-tauri/target/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig

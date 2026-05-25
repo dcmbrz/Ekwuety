@@ -1,0 +1,1 @@
+// Device tier detection and performance optimization configurations
